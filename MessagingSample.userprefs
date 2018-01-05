@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{37A792B6-3057-4D44-B661-3A9D57A1D9BD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MessagingSample/Models/Constants.cs">
+    <Files>
+      <File FileName="MessagingSample/App.xaml" Line="10" Column="1" />
+      <File FileName="MessagingSample/Pages/MessagingSamplePage.xaml" Line="17" Column="1" />
+      <File FileName="MessagingSample/Pages/MessagingSamplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MessagingSample/ViewModels/MessageSamplePageViewModel.cs" Line="73" Column="34" />
+      <File FileName="MessagingSample/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/Main.cs" Line="17" Column="50" />
+      <File FileName="iOS/FileAccessHelper.cs" Line="30" Column="58" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="79" />
+      <File FileName="MessagingSample/Models/Constants.cs" Line="10" Column="10" />
+      <File FileName="Droid/FileAccessHelper.cs" Line="22" Column="29" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="55" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="21" Column="16" />
+      <File FileName="Droid/Resources/xml/file_paths.xml" Line="7" Column="9" />
+      <File FileName="MessagingSample/Models/IShareFile.cs" Line="1" Column="1" />
+      <File FileName="MessagingSample/Models/ShareMessage.cs" Line="1" Column="1" />
+      <File FileName="iOS/ShareImplementation.cs" Line="91" Column="4" />
+      <File FileName="MessagingSample/Models/ShareUIActivityType.cs" Line="1" Column="1" />
+      <File FileName="Droid/ShareImplementation.cs" Line="25" Column="4" />
+      <File FileName="iOS/Entitlements.plist" />
+      <File FileName="MessagingSample/App.xaml.cs" Line="7" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MessagingSample.Droid PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MessagingSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.427A4716-3179-4BCE-A9D0-CD665CE17797" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MessagingSample.iOS>
+</Properties>

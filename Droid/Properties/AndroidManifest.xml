@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1"
+	android:versionName="1.0"
+	package="com.conversiontech.MessagingSample">
+	<uses-sdk
+		android:minSdkVersion="15" />
+	<application
+		android:label="MessagingSample">
+		<provider
+			android:name="android.support.v4.content.FileProvider"
+			android:authorities="com.conversiontech.MessagingSample.fileprovider"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/file_paths">
+			</meta-data>
+		</provider>
+	</application>
+	<uses-permission
+		android:name="android.permission.SEND_SMS" />
+	<uses-permission
+		android:name="android.permission.BROADCAST_SMS" />
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

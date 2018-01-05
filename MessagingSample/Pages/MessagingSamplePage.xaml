@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:MessagingSample"
+	xmlns:viewModels="clr-namespace:MessagingSample.ViewModels"
+	x:Class="MessagingSample.MessagingSamplePage">
+	<ContentPage.BindingContext>
+		<viewModels:MessageSamplePageViewModel />
+	</ContentPage.BindingContext>
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+			<Button Text="Open Share Options"  Command="{Binding OpenSheetCommand}" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
