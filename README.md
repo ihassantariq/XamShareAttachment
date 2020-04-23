@@ -1,0 +1,2 @@
+# XamShareAttachment
+This project is Xamarin.Forms. The out put of this assignment will be integrated into Xamarin.Forms project. Clicking a button should bring up the Activity View Controller similar but not exactly as presented below. It presents messaging/mailing options such as SMS, MMS, WhatsApp, Facebook Messenger etc, email. 1. any messagingmailing application chosen from this Activity View Controller should work as follows.
